@@ -22,8 +22,11 @@ struct IntentView: View {
         if self.voiceShortcutVC is INUIAddVoiceShortcutViewController  {
             AddVoiceShortcutView(addVoiceShortcutVC: self.voiceShortcutVC as! INUIAddVoiceShortcutViewController)
         }
-        else {
+        else if self.voiceShortcutVC is INUIEditVoiceShortcutViewController {
             EditVoiceShortcutView(editVoiceShortcutVC: self.voiceShortcutVC as! INUIEditVoiceShortcutViewController)
+        }
+        else {
+            EmptyView()
         }
     }
 }
