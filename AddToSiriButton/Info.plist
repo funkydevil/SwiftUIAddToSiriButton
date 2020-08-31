@@ -23,6 +23,7 @@
 	<key>NSUserActivityTypes</key>
 	<array>
 		<string>DoSomethingIntent</string>
+		<string>DoSomethingMoreIntent</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>

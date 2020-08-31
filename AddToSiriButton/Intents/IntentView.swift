@@ -13,8 +13,10 @@ struct IntentView: View {
     @State var voiceShortcutVC: UIViewController?
     @State var isSheetPresented = false
     
+    var intent: INIntent
+    
     var body: some View {
-        IntentButton(voiceShortcutVC: $voiceShortcutVC, isSheetPresented: $isSheetPresented)
+        IntentButton(intent: self.intent, voiceShortcutVC: $voiceShortcutVC, isSheetPresented: $isSheetPresented)
             .sheet(isPresented: $isSheetPresented, content: sheetContent)
     }
     
@@ -33,6 +35,8 @@ struct IntentView: View {
 
 struct IntentView_Previews: PreviewProvider {
     static var previews: some View {
-        IntentView()
+        let testIntent = DoSomethingIntent()
+        testIntent.suggestedInvocationPhrase = "Remember mine position"
+        return IntentView(intent: testIntent)
     }
 }

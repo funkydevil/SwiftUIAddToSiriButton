@@ -11,16 +11,18 @@ import IntentsUI
 
 struct IntentButton: UIViewRepresentable {
     
+    var intent: INIntent
+
     @Binding var voiceShortcutVC: UIViewController?
     @Binding var isSheetPresented: Bool
 
     
     //MARK: - VIEW
-    public var intent: DoSomethingIntent {
-        let testIntent = DoSomethingIntent()
-        testIntent.suggestedInvocationPhrase = "Remember mine position"
-        return testIntent
-    }
+//    public var intent: DoSomethingIntent {
+//        let testIntent = DoSomethingIntent()
+//        testIntent.suggestedInvocationPhrase = "Remember mine position"
+//        return testIntent
+//    }
     
     func makeUIView(context: Context) -> INUIAddVoiceShortcutButton {
         let button = INUIAddVoiceShortcutButton(style: .whiteOutline)

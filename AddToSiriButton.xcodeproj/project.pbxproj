@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F16028B624FCE3A300CED49B /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = F16028B524FCE3A300CED49B /* Intents.intentdefinition */; };
 		F1CC663024FBB08100B4F065 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CC662F24FBB08100B4F065 /* AppDelegate.swift */; };
 		F1CC663224FBB08100B4F065 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CC663124FBB08100B4F065 /* SceneDelegate.swift */; };
 		F1CC663424FBB08100B4F065 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CC663324FBB08100B4F065 /* ContentView.swift */; };
 		F1CC663624FBB08200B4F065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1CC663524FBB08200B4F065 /* Assets.xcassets */; };
 		F1CC663924FBB08200B4F065 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1CC663824FBB08200B4F065 /* Preview Assets.xcassets */; };
 		F1CC663C24FBB08200B4F065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1CC663A24FBB08200B4F065 /* LaunchScreen.storyboard */; };
-		F1CC664424FBB09400B4F065 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = F1CC664324FBB09400B4F065 /* Intents.intentdefinition */; };
 		F1CC664A24FBB0E900B4F065 /* IntentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CC664624FBB0E800B4F065 /* IntentView.swift */; };
 		F1CC664B24FBB0E900B4F065 /* EditVoiceShortcutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CC664724FBB0E800B4F065 /* EditVoiceShortcutView.swift */; };
 		F1CC664C24FBB0E900B4F065 /* IntentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CC664824FBB0E800B4F065 /* IntentButton.swift */; };
@@ -21,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F16028B524FCE3A300CED49B /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
 		F1CC662C24FBB08100B4F065 /* AddToSiriButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddToSiriButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1CC662F24FBB08100B4F065 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1CC663124FBB08100B4F065 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +30,6 @@
 		F1CC663824FBB08200B4F065 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F1CC663B24FBB08200B4F065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1CC663D24FBB08200B4F065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1CC664324FBB09400B4F065 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
 		F1CC664624FBB0E800B4F065 /* IntentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntentView.swift; sourceTree = "<group>"; };
 		F1CC664724FBB0E800B4F065 /* EditVoiceShortcutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditVoiceShortcutView.swift; sourceTree = "<group>"; };
 		F1CC664824FBB0E800B4F065 /* IntentButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntentButton.swift; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		F1CC664524FBB0D500B4F065 /* Intents */ = {
 			isa = PBXGroup;
 			children = (
-				F1CC664324FBB09400B4F065 /* Intents.intentdefinition */,
+				F16028B524FCE3A300CED49B /* Intents.intentdefinition */,
 				F1CC664924FBB0E900B4F065 /* AddVoiceShortcutView.swift */,
 				F1CC664724FBB0E800B4F065 /* EditVoiceShortcutView.swift */,
 				F1CC664824FBB0E800B4F065 /* IntentButton.swift */,
@@ -175,7 +175,7 @@
 				F1CC664D24FBB0E900B4F065 /* AddVoiceShortcutView.swift in Sources */,
 				F1CC663224FBB08100B4F065 /* SceneDelegate.swift in Sources */,
 				F1CC664A24FBB0E900B4F065 /* IntentView.swift in Sources */,
-				F1CC664424FBB09400B4F065 /* Intents.intentdefinition in Sources */,
+				F16028B624FCE3A300CED49B /* Intents.intentdefinition in Sources */,
 				F1CC663424FBB08100B4F065 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
